@@ -1,0 +1,81 @@
+.popular {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.popular > p {
+    color: gray;
+}
+
+.popular-images{
+    
+    display :grid;
+    grid-template-areas: 
+        'popular-bg-1 popular-bg-2 popular-bg-3'
+        'popular-bg-4 popular-bg-5 popular-bg-6';
+    height: 500px;
+    ;
+
+    
+}
+
+.popular-bg-1 {
+    background-size: cover;
+    background-image: url(../img/destination/italy.png);   
+    margin: 10px;
+    max-width: 250;
+    max-height: 200;
+  }
+
+  .popular-bg-2 {
+    background-size: cover;
+    background-image: url(../img/destination/brazil.png);
+    margin: 10px;
+    max-width: 250;
+    max-height: 200;
+  }
+
+  .popular-bg-3 {
+    background-size: cover;
+    background-image: url(../img/destination/america.png);
+    margin: 10px;
+    max-width: 250;
+    max-height: 200;
+  }
+
+  .popular-bg-4 {
+    background-size: cover;
+    background-image: url(../img/destination/nepal.png);
+    margin: 10px;
+    max-width: 250;
+    max-height: 200;
+  }
+
+  .popular-bg-5 {
+    background-size: cover;
+    background-image: url(../img/destination/maldives.png);
+    margin: 10px;
+    max-width: 250;
+    max-height: 200;
+  }
+
+  .popular-bg-6 {
+    background-size: cover;
+    background-image: url(../img/destination/indonesia.png);
+    margin: 10px;
+    max-width: 250;
+    max-height: 200;
+  }
+
+.popular > .popular-images > p {
+    color: white;
+    text-align: left;
+}
+#pill-highlight{
+    background: #60B99A;
+    color: white;
+    text-decoration: underline;
+    
+  }
+

@@ -1,0 +1,53 @@
+.favourite {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.favourite-bg-1 {
+    /* height: 100px;
+    width:200px; */
+    background-image: url(../img/favourites/indonesia.png);
+    background-size: cover;
+    margin: 10px;
+    padding:10px;
+
+    max-width: 250px;
+    max-height: 150px;
+    flex: 33%;
+  }
+  
+  .favourite-bg-2 {
+    background-image: url(../img/favourites/australia.png);
+    background-size: cover;
+    margin: 10px;
+    padding:10px;
+
+    max-width: 250px;
+    max-height: 150px;
+    flex: 33%;
+  }
+  
+  .favourite-bg-3 {
+    background-image: url(../img/favourites/switzerland.png);
+    background-size: cover;
+    margin: 10px;
+    padding:10px;
+
+    max-width: 250px;
+    max-height: 150px;
+    flex:33%
+  }
+  
+  .favourite_location{
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+  
+  }
+  
+
+  #explore-impact{
+    background: #60B99A;
+  }
